@@ -1,15 +1,13 @@
-dmenu - dynamic menu
-====================
+### I'm not creator of dmenu, i just modified config
+# dmenu - dynamic menu
 dmenu is an efficient dynamic menu for X.
 
 
-Requirements
-------------
+## Requirements
 In order to build dmenu you need the Xlib header files.
 
 
-Installation
-------------
+## Installation
 Edit config.mk to match your local setup (dmenu is installed into
 the /usr/local namespace by default).
 
@@ -19,6 +17,5 @@ Afterwards enter the following command to build and install dmenu
     make clean install
 
 
-Running dmenu
--------------
+## Running dmenu
 See the man page for details.
